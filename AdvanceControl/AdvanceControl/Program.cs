@@ -26,7 +26,7 @@ namespace AdvanceControl
 
             string inRussian = "Aыакпкупцпып фцаы";
 
-            var book = books.Where(_ => _.Name.Contains("1LINQ"))
+            var book = books.Where(_ => _.Name.Contains("LINQ"))
                             .Where(_ => _.Year % 4 == 0)
                             .ToList();
 
